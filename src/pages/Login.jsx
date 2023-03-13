@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../component/Footer';
 import Header from '../component/Header';
 import Styles from './Login.module.css';
 
@@ -20,18 +21,21 @@ function Login() {
           <input
             type="text"
             className={Styles.form_control}
-            placeholder="Enter your email @gmail"
+            placeholder="Enter your email ie. @gmail"
           />
           <input
             type="text"
             className={Styles.form_control_password}
-            placeholder="Enter your email Password"
+            placeholder="Enter your Password"
           />
         </div>
         <p className={Styles.forgot}>Forgot your Password? </p>
-        <button type="submit">Sign in </button>
-        <p>Create accout</p>
+        <button className={Styles.signin_btn} type="submit">
+          Sign in
+        </button>
+        <p className={Styles.create}>Create account</p>
       </div>
+      <Footer />
     </div>
   );
 }
