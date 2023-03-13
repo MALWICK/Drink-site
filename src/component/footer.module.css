@@ -13,3 +13,38 @@
   align-items: center;
   border: 2px solid grey;
 }
+
+.cont_small1 {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+  }
+  
+
+.cont_small2 {
+  width: 260px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ /*  background-color: red; */
+}
+
+.cont_small3 {
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+  }
+
+  .cont_small4 {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+  }
+  
+  
