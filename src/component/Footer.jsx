@@ -23,7 +23,7 @@ function Footer() {
         </div>
       </div>
       <div className={Style.cont2}>
-        <div>
+        <div className={Style.cont2__small1}>
           <h4>CUSTOMER SERVICE</h4>
           <ul>
             <li>Help Center</li>
@@ -33,7 +33,7 @@ function Footer() {
             <li>Gifts Cards</li>
           </ul>
         </div>
-        <div>
+        <div className={Style.cont2__small2}>
           <h4>ABOUT US</h4>
           <ul>
             <li>Company Info</li>
@@ -43,7 +43,7 @@ function Footer() {
             <li>Investor Relation</li>
           </ul>
         </div>
-        <div>
+        <div className={Style.cont2__small3}>
           <h4>QUICK LINKS</h4>
           <ul>
             <li>Search</li>
@@ -53,7 +53,7 @@ function Footer() {
             <li>Terms of Service</li>
           </ul>
         </div>
-        <div>
+        <div className={Style.cont2__small4}>
           <h4>CATEGORIES</h4>
           <ul>
             <li>Brandy</li>
@@ -63,8 +63,8 @@ function Footer() {
             <li>Tequila</li>
           </ul>
         </div>
-        <div>
-          <h3>Get exclusive offers & rewards</h3>
+        <div className={Style.cont2__small4}>
+          <h4>Get exclusive offers & rewards</h4>
           <p>
             Sign up for our members portal to receive some exclusive offer &{' '}
             <br />
@@ -72,8 +72,41 @@ function Footer() {
           </p>
           <div className={Style.cont2__input}>
             <input type="email" placeholder="Your email address" />
-            <buttun type="submit">Subscribe</buttun>
+            <button type="submit">Subscribe</button>
           </div>
+        </div>
+      </div>
+      <div className={Style.cont3}>
+        <div className={Style.connect}>
+          <p>STAY CONNECT</p>
+          <span>
+            <i className="fa-brands fa-facebook-f" />
+          </span>
+          <span>
+            <i className="fa-brands fa-twitter" />
+          </span>
+          <span>
+            <i className="fa-brands fa-pinterest" />
+          </span>
+          <span>
+            <i className="fa-brands fa-square-instagram" />
+          </span>
+        </div>
+        <div className={Style.accept}>
+          <p>WE ACCEPT</p>
+          <i className="fa-brands fa-bitcoin" />
+          <i className="fa-brands fa-cc-visa" />
+          <i className="fa-brands fa-paypal" />
+          <i className="fa-brands fa-cc-amazon-pay" />
+          <i className="fa-solid fa-credit-card" />
+        </div>
+        <div className={Style.careers}>
+          <p>Careers</p>
+          <p>About Us</p>
+          <p>Affiliates</p>
+          <p>Privacy Settings</p>
+          <p>Help</p>
+          <p>Site map</p>
         </div>
       </div>
     </div>
