@@ -1,54 +1,31 @@
-.deal {
+.Login_des {
   width: 100%;
+  height: 12vh;
   display: flex;
-  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  background-color: beige;
 }
 
-.deal img {
-  width: 100%;
+.Login_des p {
+  font-size: 16px;
 }
 
-.center {
-  position: absolute;
-  top: 40%;
-  left: 67%;
-  transform: translate(-50%, -50%);
+.Login_des p:hover {
+  color: rgb(64, 63, 63);
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-.center p {
-    font-size: 15px;
-    font-weight: 200;
+.homei {
+  margin-left: 4px;
+  font-size: 19px;
+  color: #4a4545;
+  text-decoration: underline;
 }
 
-.center h1 {
-    font-size: 3.8rem;
-    font-weight: 700;
-    letter-spacing: 1.9px;
-    color: #c80404;
-}
-
-.center h3 {
-    font-size: 1.5rem;
-    color: #373232;
-}
-
-.center button {
-    font-size: 1rem;
-    padding: 14px;
-    color: #fff;
-    background-color: #c80404;
-}
-
-.inner_carousel {
-  display: flex;
-}
-
-.carousel {
-  cursor: grab;
-  position: relative;
-  /* overflow: hidden; */
-}
-
-.item img {
-  pointer-events: none;
+.homei:hover {
+  color: #e60606;
+  cursor: pointer;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import Deal from '../assets/images/home1.jpg';
 import home2 from '../assets/images/home2.jpg';
 import Header from '../component/Header';
-import Style from './Login.module.css';
+import Style from './Home.module.css';
 
 function Home() {
   /*   const [width, setWidht] = useState(0);
