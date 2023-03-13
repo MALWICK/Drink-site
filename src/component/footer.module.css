@@ -4,10 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .cont1 {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -45,6 +46,12 @@
     justify-content: space-around;
     align-items: center;
     /* background-color: red; */
+  }
+
+  .cont2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
   }
   
   
