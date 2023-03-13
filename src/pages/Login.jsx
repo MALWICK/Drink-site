@@ -28,7 +28,9 @@ function Login() {
             placeholder="Enter your email Password"
           />
         </div>
-        <p>Forgot your Password? </p>
+        <p className={Styles.forgot}>Forgot your Password? </p>
+        <button type="submit">Sign in </button>
+        <p>Create accout</p>
       </div>
     </div>
   );
