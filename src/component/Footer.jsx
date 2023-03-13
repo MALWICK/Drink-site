@@ -65,6 +65,15 @@ function Footer() {
         </div>
         <div>
           <h3>Get exclusive offers & rewards</h3>
+          <p>
+            Sign up for our members portal to receive some exclusive offer &{' '}
+            <br />
+            rewards. Its easy and free!
+          </p>
+          <div className={Style.cont2__input}>
+            <input type="email" placeholder="Your email address" />
+            <buttun type="submit">Subscribe</buttun>
+          </div>
         </div>
       </div>
     </div>
