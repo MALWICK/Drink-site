@@ -1,0 +1,54 @@
+.deal {
+  width: 100%;
+  display: flex;
+  position: absolute;
+}
+
+.deal img {
+  width: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+}
+
+.center p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.center h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+    color: #c80404;
+}
+
+.center h3 {
+    font-size: 1.5rem;
+    color: #373232;
+}
+
+.center button {
+    font-size: 1rem;
+    padding: 14px;
+    color: #fff;
+    background-color: #c80404;
+}
+
+.inner_carousel {
+  display: flex;
+}
+
+.carousel {
+  cursor: grab;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.item img {
+  pointer-events: none;
+}

@@ -1,0 +1,104 @@
+.header {
+  width: 100%;
+  height: 70px;
+  border: 1px solid rgb(210, 207, 207);
+  flex-wrap: wrap;
+  position: inherit;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header p {
+  border-bottom: 3px solid transparent;
+}
+
+.header p:hover {
+  border-bottom: 3px solid #3a3737;
+  cursor: pointer;
+}
+
+.left_header {
+  width: 34%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /*  background-color: aquamarine; */
+}
+
+.left_header p {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.left_header h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.4rem;
+}
+
+.liq_heading {
+  width: 190px;
+  color: #fff;
+  background-color: red;
+}
+
+.menu {
+  width: 85px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  border-left: 2px solid #d8d6d6;
+  border-right: 2px solid #d8d6d6;
+  /* background-color: gray; */
+}
+
+.menu i {
+  color: #3a373748;
+}
+
+.home {
+  width: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2%;
+  /*   background-color: rgb(108, 42, 53); */
+}
+
+.shop {
+  width: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*   background-color: pink; */
+}
+
+.page {
+  width: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  /*  background-color: beige; */
+}
+
+.contact {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%; /* 
+  background-color: blue; */
+}
+
+.right_header {
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
