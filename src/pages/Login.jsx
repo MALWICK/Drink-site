@@ -5,7 +5,7 @@ import Styles from './Login.module.css';
 
 function Login() {
   return (
-    <div>
+    <div className={Styles.login__container}>
       <Header />
       <div className={Styles.Login_des}>
         <span>

@@ -1,3 +1,12 @@
+.login__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 .Login_des {
   width: 100%;
   height: 12vh;
@@ -32,12 +41,12 @@
 
 .form_container {
   width: 100%;
-  height:55vh;
+  height: 55vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- /*  background-color: #4a4545; */
+  /*  background-color: #4a4545; */
 }
 
 .form_container h1 {
@@ -52,57 +61,57 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
- /*  background-color: red; */
+  /*  background-color: red; */
 }
 
 .form_control {
-    width: 90%;
-    height: 50px;
-    text-align: center;
-    margin-bottom: 3%;
-    border: 1px solid #b0afaf;
+  width: 90%;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 3%;
+  border: 1px solid #b0afaf;
 }
 
 .form_control_password {
-    width: 90%;
-    height: 50px;
-    text-align: center;
-    border: 1px solid #b0afaf;
+  width: 90%;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #b0afaf;
 }
 
 .forgot {
-    font-size: 1.4rem;
-    font-weight: 200;
-    text-decoration: underline;
+  font-size: 1.4rem;
+  font-weight: 200;
+  text-decoration: underline;
 }
 
 .forgot:hover {
-    cursor: pointer;
-    color: gray;
+  cursor: pointer;
+  color: gray;
 }
 
 .signin_btn {
-    width: 140px;
-    height: 50px;
-    color: #fff;
-    font-size: 16px;
-    background-color: black;
+  width: 140px;
+  height: 50px;
+  color: #fff;
+  font-size: 16px;
+  background-color: black;
 }
 
 .signin_btn:hover {
-    cursor: pointer;
-    background-color: rgb(181, 172, 172);
-    color: black;
-    transition: 1s;
+  cursor: pointer;
+  background-color: rgb(181, 172, 172);
+  color: black;
+  transition: 1s;
 }
 
 .create {
-    font-size: 1.4rem;
-    font-weight: 200;
-    text-decoration: underline;
+  font-size: 1.4rem;
+  font-weight: 200;
+  text-decoration: underline;
 }
 
 .create:hover {
-    cursor: pointer;
-    color: gray;
+  cursor: pointer;
+  color: gray;
 }
