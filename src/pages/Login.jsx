@@ -24,7 +24,7 @@ function Login() {
             placeholder="Enter your email ie. @gmail"
           />
           <input
-            type="text"
+            type="Password"
             className={Styles.form_control_password}
             placeholder="Enter your Password"
           />
