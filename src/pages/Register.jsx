@@ -23,6 +23,14 @@ function Register() {
           <input type="tel" placeholder="Contact " />
           <input type="email" placeholder="Email " />
           <input type="password" placeholder="Password" />
+          <div className={Styles.pass}>
+            <span
+              className={Styles.tooltip}
+              data-tooltip="password must consist of symbols & letters."
+            >
+              ?
+            </span>
+          </div>
         </form>
         <button type="submit">Create</button>
       </div>

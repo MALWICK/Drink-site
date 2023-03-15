@@ -4,7 +4,7 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
- /*  overflow: hidden; */
+  overflow: hidden;
 }
 
 .Login_des {
@@ -114,4 +114,16 @@
 .create:hover {
   cursor: pointer;
   color: gray;
+}
+
+@media (max-width: 768px) {
+  .input_fields {
+    width: 60%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*   background-color: red; */
+  }
 }

@@ -4,8 +4,12 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  
   overflow: hidden;
+}
+
+.deal:hover {
+  transform: scale(1.01);
+  filter: brightness(90%);
 }
 
 .deal {
@@ -13,6 +17,8 @@
   width: 100%;
   height: 70vh;
   background-color: grey;
+  transform-origin: 55% 75%;
+  transition: transform 1s, filter 0.5s ease-out;
 }
 
 .center {
@@ -51,9 +57,74 @@
   color: #5b5a5a;
 }
 
+.trending__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left__div {
+  width: 40%;
+  padding-left: 2%;
+  text-align: left;
+}
+
+.left__div h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 1.6;
+}
+
+.left__div p {
+  color: gray;
+}
+
+.left__span {
+  width: 130px;
+  border-left: 1px solid grey;
+  cursor: pointer;
+  margin-left: 0.7%;
+}
+
+.left__span:hover {
+  color: black;
+}
+
+.left__span i {
+  font-size: small;
+  color: red;
+  padding-left: 1%;
+}
+
+.right__div {
+  display: flex;
+  padding-right: 4.2%;
+  gap: 5%;
+}
+
+.right__span1 {
+  width: 33px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #adacac;
+  border-radius: 50%;
+}
+
+.right__span2 {
+  width: 33px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #adacac;
+  border-radius: 50%;
+}
+
 @media (max-width: 768px) {
   .center {
     display: none;
-  }  
-
+  }
 }

@@ -1,0 +1,165 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container1 {
+  width: 95%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*  background-color: red; */
+}
+
+.green__container {
+  background-image: url('../assets/images/greenpic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1118px;
+  height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.green__container:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.black__container:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+/* .green__center {
+    position: absolute;
+    top: 160%;
+    left: 35%;
+} */
+
+.green__center {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading__cont {
+  width: 70%; /* 
+    background-color: blue; */
+}
+
+.green__center button {
+  width: 110px;
+  height: 43px;
+  border: none;
+}
+
+.green__center button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.enjoy__p {
+  color: white;
+  font-size: 17px;
+}
+
+.green__center h1 {
+  font-size: 3.3rem;
+  font-weight: 360;
+  color: white;
+}
+
+.bold__heading {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.price {
+  margin-left: 1%;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 2;
+  color: red;
+}
+
+.black__container {
+  background-image: url('../assets/images/blackpic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 674px;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.black__center {
+  width: 55%;
+  height: 44vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*  background-color: blue; */
+}
+
+.black__just {
+  font-size: 18px;
+}
+
+.black__header {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.black__header span {
+  font-weight: 800;
+  color: #dcdc8e;
+}
+
+.black__center button {
+  width: 110px;
+  height: 43px;
+  border: none;
+}
+
+.black_btn {
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  background-color: red; */
+}
+
+.black_btn button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .green__container {
+    width: 55%;
+  }
+
+  .black__container {
+    width: 43%;
+  }
+
+  .green__center {
+    display: none;
+  }
+}
