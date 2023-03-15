@@ -5,19 +5,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #eeeeee;
     /* overflow: hidden; */
-    background-color: green;
+   /*  background-color: green; */
 }
 .cards__cont {
     width: 90%;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center
+
 }
 
 .card1{
-    width: 266px;
-    height: 479px;
+    width: 320px;
+    height: 550px;
+    border: 1px solid #eeeeee;
     background-color: white;
 }
 
@@ -26,14 +30,33 @@
     height: 280px;
 }
 
+.card1__img1 {
+    width: 80%;
+    height: 280px;
+}
+
+.card1__img2 {
+    width: 80%;
+    height: 280px;
+}
+
+.card1__img3 {
+    width: 80%;
+    height: 280px;
+}
+
+.card1__img4 {
+    width: 80%;
+    height: 280px;
+}
+
 .vaker__p {
-    font-size: large;
+    font-size: small;
     font-weight: 500px;
 }
 
 
 .vaker__price {
-    font-size: 1.3rem;
     font-weight: 700px;
     color: red;
 }
@@ -43,18 +66,23 @@
     border: 2px solid black;
 } */
 
-.stock span {
-    width: 20px;
-    height: 5px;
-    border-radius: 50%;
-    color: green;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: green;
-}
 
 .stock {
     color: green;
-    font-size: 18px;
+  /*   font-size: 20px; */
     font-weight: bold;
+}
+
+.card1 button {
+    width: 120px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.card1 button:hover {
+    cursor: pointer;
+    background-color: #b60303;
+    color: white;
 }

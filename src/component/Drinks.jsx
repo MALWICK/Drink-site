@@ -20,9 +20,79 @@ function Drinks() {
             <i className="fa-solid fa-star" />
             <i className="fa-solid fa-star" />
           </div>
-          <p className={style.stock}>
-            <span>.</span>in Stock
-          </p>
+          <p className={style.stock}>.in Stock</p>
+          <button type="submit">ADD TO CART</button>
+        </div>
+        <div className={style.card1}>
+          <img
+            src="https://img.thewhiskyexchange.com/480/champ_bol21.jpg"
+            alt="blanca"
+            className={style.card1__img1}
+          />
+          <p className={style.vaker__p}>Vakers Mark Bourbon</p>
+          <p className={style.vaker__price}>$150.00</p>
+          <div className={style.vaker__stars}>
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+          </div>
+          <p className={style.stock}>.in Stock</p>
+          <button type="submit">ADD TO CART</button>
+        </div>
+        <div className={style.card1}>
+          <img
+            src="https://img.thewhiskyexchange.com/480/sherry_gon6.jpg"
+            alt="blanca"
+            className={style.card1__img2}
+          />
+          <p className={style.vaker__p}>Vakers Mark Bourbon</p>
+          <p className={style.vaker__price}>$150.00</p>
+          <div className={style.vaker__stars}>
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+          </div>
+          <p className={style.stock}>.in Stock</p>
+          <button type="submit">ADD TO CART</button>
+        </div>
+        <div className={style.card1}>
+          <img
+            src="https://img.thewhiskyexchange.com/480/mtlob.15yo.jpg"
+            alt="blanca"
+            className={style.card1__img3}
+          />
+          <p className={style.vaker__p}>Vakers Mark Bourbon</p>
+          <p className={style.vaker__price}>$150.00</p>
+          <div className={style.vaker__stars}>
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+          </div>
+          <p className={style.stock}>.in Stock</p>
+          <button type="submit">ADD TO CART</button>
+        </div>
+        <div className={style.card1}>
+          <img
+            src="https://img.thewhiskyexchange.com/480/cilsig2013.jpg"
+            alt="blanca"
+            className={style.card1__img4}
+          />
+          <p className={style.vaker__p}>Vakers Mark Bourbon</p>
+          <p className={style.vaker__price}>$150.00</p>
+          <div className={style.vaker__stars}>
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+          </div>
+          <p className={style.stock}>.in Stock</p>
           <button type="submit">ADD TO CART</button>
         </div>
       </div>
