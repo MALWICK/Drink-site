@@ -71,7 +71,7 @@
 }
 
 .left__div h2 {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   font-weight: 600;
   letter-spacing: 1.6;
 }
@@ -87,8 +87,12 @@
   margin-left: 0.7%;
 }
 
-.left__span:hover {
+.left__span {
   color: black;
+}
+ 
+.left__span:hover {
+  color: #dcdada;
 }
 
 .left__span i {

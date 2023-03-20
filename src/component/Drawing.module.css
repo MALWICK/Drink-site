@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #f7f6f2;
+  background-color: #fcfcfc;
 }
 
 .drawing__container {
@@ -48,6 +48,10 @@
 
 .drawing__container img:hover {
   opacity: 0.3;
+}
+
+.drawing1,.drawing2 {
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {

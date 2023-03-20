@@ -95,6 +95,24 @@ function Drinks() {
           <p className={style.stock}>.in Stock</p>
           <button type="submit">ADD TO CART</button>
         </div>
+        <div className={style.card1}>
+          <img
+            src="https://img.thewhiskyexchange.com/480/champ_bol21.jpg"
+            alt="blanca"
+            className={style.card1__img1}
+          />
+          <p className={style.vaker__p}>Vakers Mark Bourbon</p>
+          <p className={style.vaker__price}>$150.00</p>
+          <div className={style.vaker__stars}>
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+            <i className="fa-solid fa-star" />
+          </div>
+          <p className={style.stock}>.in Stock</p>
+          <button type="submit">ADD TO CART</button>
+        </div>
       </div>
     </div>
   );

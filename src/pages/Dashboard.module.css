@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.items__container {
+    width: 100%;
+    height: 140vh;
+    background-color: brown;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left__container {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+.right__container {
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+.none__alcoholic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    border-bottom: 3px solid black;
+}

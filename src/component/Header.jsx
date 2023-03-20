@@ -28,7 +28,7 @@ function Header() {
         </div>
       </div>
       <div className={header.right_header}>
-        <div>
+        <div className={header.search}>
           <i className="fa-solid fa-magnifying-glass" />
         </div>
         <div>
