@@ -42,7 +42,7 @@
 .drawing__container img {
   width: 250px;
   height: 290px;
-  border-radius: 1%;
+  border-radius: 20px;
   opacity: 1;
 }
 
