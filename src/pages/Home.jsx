@@ -6,6 +6,7 @@ import Flier2 from '../component/Flier2';
 import Footer from '../component/Footer';
 import Header from '../component/Header';
 import Market from '../component/Market';
+import Sticker from '../component/Sticker';
 import Testimonial from '../component/Testimonial';
 import WhatsNew from '../component/WhatsNew';
 import Style from './Home.module.css';
@@ -79,6 +80,7 @@ function Home() {
       </div>
       <Drinks />
       <Testimonial />
+      <Sticker />
       <Footer />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './Drawing.module.css';
-import Cocktail from '../assets/images/wine.jpg';
+import Cocktail from '../assets/images/gift.gif';
 import Deals from '../assets/images/deals.jpg';
 import Beer from '../assets/images/hinneken.jpg';
 import Cognac from '../assets/images/cognac.jpg';
