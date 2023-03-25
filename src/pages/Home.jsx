@@ -6,6 +6,7 @@ import Flier2 from '../component/Flier2';
 import Footer from '../component/Footer';
 import Header from '../component/Header';
 import Market from '../component/Market';
+import Testimonial from '../component/Testimonial';
 import WhatsNew from '../component/WhatsNew';
 import Style from './Home.module.css';
 
@@ -56,7 +57,28 @@ function Home() {
       <Flier2 />
       <WhatsNew />
       <Market />
-
+      <div className={Style.trending__container}>
+        <div className={Style.left__div}>
+          <h2>Combination of our Top Beer & Wine</h2>
+          <p>
+            The best selection of Whiskey, Vodka and Liquer
+            <span className={Style.left__span}>
+              View ALL
+              <i className="fa-solid fa-chevron-right" />
+            </span>
+          </p>
+        </div>
+        <div className={Style.right__div}>
+          <span className={Style.right__span1}>
+            <i className="fa-solid fa-chevron-left" />
+          </span>
+          <span className={Style.right__span2}>
+            <i className="fa-solid fa-chevron-right" />
+          </span>
+        </div>
+      </div>
+      <Drinks />
+      <Testimonial />
       <Footer />
     </div>
   );
